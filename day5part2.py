@@ -78,7 +78,6 @@ for line in coord_sets:
 		y = y + (1*ydir)
 	print()
 
-
 #display_board(board)
 score = len([item for sublist in board for item in sublist if item > 1])
 print('Score is %d' % score)
